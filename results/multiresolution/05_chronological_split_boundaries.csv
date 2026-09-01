@@ -1,0 +1,4 @@
+split,start_inclusive,end_exclusive,n_calendar_days
+train,2026-03-22,2026-07-05,105
+validation,2026-07-05,2026-07-27,22
+test,2026-07-27,2026-08-20,24

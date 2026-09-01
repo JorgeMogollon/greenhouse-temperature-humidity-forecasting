@@ -1,0 +1,6 @@
+resolution,n_rows,expected_interval_seconds,all_intervals_correct,duplicate_timestamps,target_valid_bins
+4min,54168,240,True,0,43603
+12min,18056,720,True,0,9839
+20min,10834,1200,True,0,8007
+30min,7223,1800,True,0,5050
+60min,3612,3600,True,0,2402
