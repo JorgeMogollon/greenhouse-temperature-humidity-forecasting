@@ -1,1 +1,13 @@
-
+{
+  "stage": 2,
+  "stage_name": "Quality control and temporal regularization",
+  "input_file": "data\\processed\\greenhouse_sensor_data_validated.csv",
+  "output_file": "data\\processed\\greenhouse_sensor_data_4min.csv",
+  "base_frequency": "4min",
+  "resample_origin": "start_day",
+  "maximum_interpolation_bins": 3,
+  "maximum_interpolation_minutes": 12,
+  "interpolation_method": "time",
+  "only_internal_short_gaps": true,
+  "interpolate_bme280_humidity": false
+}
