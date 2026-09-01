@@ -1,0 +1,7 @@
+indicator,value
+Final rows,54168
+Minimum interval [s],240.0
+Maximum interval [s],240.0
+Median interval [s],240.0
+All intervals equal 240 s,True
+Duplicate timestamps,0

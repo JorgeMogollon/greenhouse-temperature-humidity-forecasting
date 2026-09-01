@@ -1,0 +1,9 @@
+indicator,value
+Nominal frequency,4min
+Number of bins,54168
+Bins with at least one record,43603
+Empty bins,10565
+Empty bins [%],19.504135282823807
+Bins with multiple records,16
+Mean records per bin,0.8052540245163196
+Maximum records per bin,2
