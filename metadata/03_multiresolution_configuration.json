@@ -1,0 +1,85 @@
+{
+  "stage": 3,
+  "stage_name": "Multi-resolution datasets and forecasting sample indices",
+  "input_file": "data\\processed\\greenhouse_sensor_data_4min.csv",
+  "temporal_resolutions_minutes": [
+    4,
+    12,
+    20,
+    30,
+    60
+  ],
+  "history_windows_hours": [
+    6,
+    12,
+    24,
+    48
+  ],
+  "forecast_horizons_minutes": [
+    60,
+    120,
+    240,
+    480
+  ],
+  "continuous_aggregation": "mean",
+  "minimum_bin_coverage": 0.75,
+  "minimum_target_observed_fraction": 0.75,
+  "maximum_interpolated_fraction_in_history": 0.05,
+  "split_boundaries": [
+    {
+      "split": "train",
+      "start_inclusive": "2026-03-22",
+      "end_exclusive": "2026-07-05",
+      "n_calendar_days": 105
+    },
+    {
+      "split": "validation",
+      "start_inclusive": "2026-07-05",
+      "end_exclusive": "2026-07-27",
+      "n_calendar_days": 22
+    },
+    {
+      "split": "test",
+      "start_inclusive": "2026-07-27",
+      "end_exclusive": "2026-08-20",
+      "n_calendar_days": 24
+    }
+  ],
+  "feature_sets": {
+    "SHT_BASE": [
+      "temperature",
+      "relative_humidity"
+    ],
+    "SHT_TIME": [
+      "temperature",
+      "relative_humidity",
+      "hour_sin",
+      "hour_cos",
+      "day_of_year_sin",
+      "day_of_year_cos"
+    ],
+    "SHT_AUX_TIME": [
+      "temperature",
+      "relative_humidity",
+      "temperature_bme280",
+      "pressure",
+      "hour_sin",
+      "hour_cos",
+      "day_of_year_sin",
+      "day_of_year_cos"
+    ],
+    "SHT_MULTISENSOR_TIME": [
+      "temperature",
+      "relative_humidity",
+      "temperature_bme280",
+      "relative_humidity_bme280",
+      "pressure",
+      "rh_bme280_saturated_fraction",
+      "hour_sin",
+      "hour_cos",
+      "day_of_year_sin",
+      "day_of_year_cos"
+    ]
+  },
+  "storage_strategy": "Base resolution CSV files plus reusable sample-index CSV files"
+}
