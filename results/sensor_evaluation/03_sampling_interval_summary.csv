@@ -1,0 +1,11 @@
+indicator,value
+Median [s],247.0
+Mean [s],298.0464257875189
+Standard deviation [s],271.7727295215596
+Minimum [s],43.0
+5th percentile [s],246.0
+25th percentile [s],246.0
+75th percentile [s],250.0
+95th percentile [s],509.0
+Maximum [s],37298.0
+Percentage between 210 and 270 s,84.4123985510569

@@ -1,0 +1,4 @@
+variable,target_sensor,auxiliary_sensor,decision,rationale
+Air temperature,SHT31,BME280,SHT31 selected as forecasting target,Better nominal specifications and high thermal agreement with the BME280.
+Relative humidity,SHT31,Quality-controlled BME280,SHT31 selected as forecasting target,BME280 humidity shows time-dependent discrepancy and saturation periods.
+Atmospheric pressure,Not applicable,BME280,Retained only as a candidate exogenous predictor,Its contribution must be assessed through ablation and chronological validation.
