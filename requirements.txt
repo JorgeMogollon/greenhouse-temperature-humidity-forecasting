@@ -1,0 +1,20 @@
+# Direct dependencies for the reproducible forecasting workflow
+# Final analyses were executed with Python 3.13.9.
+#
+# Versions are pinned only when they were recorded in the repository runtime
+# metadata. Run notebooks 01-10 in numerical order after installation.
+
+ipykernel
+jupyterlab
+joblib
+matplotlib
+numpy==2.3.5
+pandas==2.3.3
+pyarrow
+scikit-learn
+scipy==1.16.3
+seaborn
+statsmodels==0.14.5
+tensorflow
+tqdm
+xgboost
