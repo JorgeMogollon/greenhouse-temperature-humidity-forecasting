@@ -1,0 +1,8 @@
+check,passed,detail
+six_families_present,True,"['ADVANCED_TRADITIONAL', 'BASELINE', 'DEEP_LEARNING', 'HYBRID_ROBUST', 'MACHINE_LEARNING', 'STATISTICAL']"
+expected_tasks_per_family,True,"{'ADVANCED_TRADITIONAL': 40, 'BASELINE': 40, 'DEEP_LEARNING': 40, 'HYBRID_ROBUST': 40, 'MACHINE_LEARNING': 40, 'STATISTICAL': 40}"
+origin_key_parity,True,canonical=ADVANCED_TRADITIONAL
+observed_value_parity,True,"atol=0.001, rtol=1e-06"
+base_only_exact_equivalence,True,"{'base_only_prediction_rows': 17233, 'base_only_tasks': 33, 'maximum_absolute_difference': 0.0, 'exact_equivalence': True}"
+finite_metrics,True,rows=240
+no_test_selection,True,all family selectors are validation-only

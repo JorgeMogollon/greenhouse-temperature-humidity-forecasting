@@ -1,0 +1,39 @@
+{
+  "notebook": "09_final_model_family_benchmark.ipynb",
+  "execution_mode": "full",
+  "resolutions_minutes": [
+    4,
+    12,
+    20,
+    30,
+    60
+  ],
+  "targets": [
+    "temperature",
+    "relative_humidity"
+  ],
+  "horizons_minutes": [
+    60,
+    120,
+    240,
+    480
+  ],
+  "families": [
+    "BASELINE",
+    "STATISTICAL",
+    "MACHINE_LEARNING",
+    "DEEP_LEARNING",
+    "ADVANCED_TRADITIONAL",
+    "HYBRID_ROBUST"
+  ],
+  "expected_tasks_per_family": 40,
+  "canonical_truth_source": "ADVANCED_TRADITIONAL",
+  "deep_learning_candidate_id_source": "reconstructed from notebook 06 architecture validation summary",
+  "normalization": "test-task target standard deviation, ddof=0",
+  "truth_alignment_tolerances": {
+    "absolute": 0.001,
+    "relative": 1e-06
+  },
+  "historical_values_are_audit_only": true,
+  "test_used_for_selection": false
+}

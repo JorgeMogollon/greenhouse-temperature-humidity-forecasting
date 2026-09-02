@@ -1,0 +1,6 @@
+resolution,dataset_rows,train_origins,validation_origins,test_origins
+4min,54168,1053,1446,2742
+12min,18056,104,135,378
+20min,10834,146,239,556
+30min,7223,104,142,350
+60min,3612,66,58,211

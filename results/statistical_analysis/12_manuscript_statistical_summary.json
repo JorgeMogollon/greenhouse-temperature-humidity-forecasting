@@ -1,0 +1,12 @@
+{
+  "friedman_statistic": 79.85735186539871,
+  "friedman_p_value": 8.988726474789061e-16,
+  "primary_contrast_holm_p_value": 0.1875,
+  "primary_bootstrap_mean_difference": 0.0015328034389710554,
+  "primary_bootstrap_mean_ci": [
+    0.0003379087393635559,
+    0.003260564168321395
+  ],
+  "primary_interpretation": "The paired Holm-adjusted contrast did not detect an overall difference between the robust hybrid and advanced traditional families.",
+  "required_conclusion": "Performance differences are task-dependent; no universal robust hybrid superiority is claimed."
+}

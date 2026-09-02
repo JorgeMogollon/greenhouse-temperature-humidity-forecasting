@@ -1,0 +1,19 @@
+{
+  "notebook": "10_statistical_analysis_and_figures.ipynb",
+  "execution_mode": "full",
+  "paired_blocks": 40,
+  "primary_metric": "NRMSE normalized by test-task target SD",
+  "omnibus_test": "Friedman",
+  "post_hoc_test": "paired Wilcoxon signed-rank",
+  "multiplicity_correction": "Holm",
+  "numerical_tie_tolerance": 1e-06,
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed": 2026,
+  "dm_loss": "squared error",
+  "dm_variance": "Newey-West long-run variance with Bartlett weights",
+  "dm_holm_scope": "all robust hybrid task-level contrasts",
+  "primary_contrast": [
+    "HYBRID_ROBUST",
+    "ADVANCED_TRADITIONAL"
+  ]
+}

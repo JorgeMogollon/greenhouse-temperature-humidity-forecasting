@@ -1,0 +1,9 @@
+check,passed,detail
+complete_nrmse_panel,True,"tasks=40, families=6"
+friedman_result_finite,True,"statistic=79.85735186539871, p=8.988726474789061e-16"
+all_pairwise_contrasts,True,rows=15
+bootstrap_complete,True,"rows=15, repetitions=5000"
+dm_primary_contrasts_complete,True,"rows=200, expected=200"
+task_winner_map_complete,True,rows=40
+hybrid_comparison_complete,True,rows=40
+figures_created,True,figures\article

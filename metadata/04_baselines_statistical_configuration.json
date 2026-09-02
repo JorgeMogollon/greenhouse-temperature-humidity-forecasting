@@ -1,0 +1,44 @@
+{
+  "temporal_resolutions_minutes": [
+    4,
+    12,
+    20,
+    30,
+    60
+  ],
+  "targets": [
+    "temperature",
+    "relative_humidity"
+  ],
+  "forecast_horizons_minutes": [
+    60,
+    120,
+    240,
+    480
+  ],
+  "history_hours": 24,
+  "rolling_mean_hours": 6,
+  "minimum_history_availability": 0.75,
+  "maximum_interpolated_fraction": 0.15,
+  "ridge_alpha_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "ridge_solver": "lsqr",
+  "reference_models": [
+    "PERSISTENCE",
+    "SEASONAL_NAIVE_24H",
+    "ROLLING_MEAN_6H",
+    "DIURNAL_CLIMATOLOGY"
+  ],
+  "statistical_models": [
+    "AR_DIRECT_RIDGE",
+    "VAR_DIRECT_RIDGE"
+  ],
+  "random_seed": 2026,
+  "sample_comparison_policy": "All models use the same effective forecast origins within each resolution.",
+  "split_policy": "The origin and all future targets remain inside the same chronological split."
+}

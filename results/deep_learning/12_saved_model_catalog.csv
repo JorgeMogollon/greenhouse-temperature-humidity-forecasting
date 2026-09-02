@@ -1,0 +1,16 @@
+resolution,resolution_minutes,architecture,feature_set,seed,model_path
+4min,4,GRU,SHT_TIME,2026,models\deep_learning\4min\GRU\SHT_TIME\seed_2026.keras
+4min,4,GRU,SHT_TIME,2027,models\deep_learning\4min\GRU\SHT_TIME\seed_2027.keras
+4min,4,GRU,SHT_TIME,2028,models\deep_learning\4min\GRU\SHT_TIME\seed_2028.keras
+12min,12,MLP,SHT_TIME,2026,models\deep_learning\12min\MLP\SHT_TIME\seed_2026.keras
+12min,12,MLP,SHT_TIME,2027,models\deep_learning\12min\MLP\SHT_TIME\seed_2027.keras
+12min,12,MLP,SHT_TIME,2028,models\deep_learning\12min\MLP\SHT_TIME\seed_2028.keras
+20min,20,LSTM,SHT_TIME,2026,models\deep_learning\20min\LSTM\SHT_TIME\seed_2026.keras
+20min,20,LSTM,SHT_TIME,2027,models\deep_learning\20min\LSTM\SHT_TIME\seed_2027.keras
+20min,20,LSTM,SHT_TIME,2028,models\deep_learning\20min\LSTM\SHT_TIME\seed_2028.keras
+30min,30,LSTM,SHT_TIME,2026,models\deep_learning\30min\LSTM\SHT_TIME\seed_2026.keras
+30min,30,LSTM,SHT_TIME,2027,models\deep_learning\30min\LSTM\SHT_TIME\seed_2027.keras
+30min,30,LSTM,SHT_TIME,2028,models\deep_learning\30min\LSTM\SHT_TIME\seed_2028.keras
+60min,60,MLP,SHT_TIME,2026,models\deep_learning\60min\MLP\SHT_TIME\seed_2026.keras
+60min,60,MLP,SHT_TIME,2027,models\deep_learning\60min\MLP\SHT_TIME\seed_2027.keras
+60min,60,MLP,SHT_TIME,2028,models\deep_learning\60min\MLP\SHT_TIME\seed_2028.keras

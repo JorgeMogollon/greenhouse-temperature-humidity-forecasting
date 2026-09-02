@@ -1,0 +1,15 @@
+{
+  "notebook": "07_advanced_traditional_models.ipynb",
+  "execution_mode": "full",
+  "python": "3.13.9",
+  "statsmodels": "0.14.5",
+  "candidate_rows": 76,
+  "successful_validation_fits": 150,
+  "candidate_failures": 2,
+  "selected_configurations": 10,
+  "validation_prediction_rows": 231352,
+  "test_prediction_rows": 33896,
+  "test_metric_rows": 40,
+  "historical_selection_matches": 7,
+  "test_used_for_selection": false
+}

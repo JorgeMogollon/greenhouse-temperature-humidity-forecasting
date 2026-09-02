@@ -1,0 +1,6 @@
+resolution,resolution_minutes,model,feature_set,candidate_id,mean_validation_rmse,mean_validation_r2,selection_rule
+4min,4,EXTRA_TREES,SHT_TIME,2,2.752507787479608,0.870384415087498,lowest mean validation RMSE; mean validation R2 as secondary criterion
+12min,12,RANDOM_FOREST,SHT_TIME,2,3.85257287858119,0.7661605771862857,lowest mean validation RMSE; mean validation R2 as secondary criterion
+20min,20,EXTRA_TREES,SHT_TIME,2,3.0864714391855474,0.8378498248735322,lowest mean validation RMSE; mean validation R2 as secondary criterion
+30min,30,EXTRA_TREES,SHT_TIME,2,3.341976501432155,0.79610019178721,lowest mean validation RMSE; mean validation R2 as secondary criterion
+60min,60,XGBOOST,SHT_TIME,2,3.4373203029057278,0.7533396403469339,lowest mean validation RMSE; mean validation R2 as secondary criterion

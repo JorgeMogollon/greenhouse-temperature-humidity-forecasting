@@ -1,0 +1,6 @@
+resolution,feature_set,sequence_features
+4min,SHT_TIME,temperature;relative_humidity;hour_sin;hour_cos;day_of_year_sin;day_of_year_cos
+12min,SHT_TIME,temperature;relative_humidity;hour_sin;hour_cos;day_of_year_sin;day_of_year_cos
+20min,SHT_TIME,temperature;relative_humidity;hour_sin;hour_cos;day_of_year_sin;day_of_year_cos
+30min,SHT_TIME,temperature;relative_humidity;hour_sin;hour_cos;day_of_year_sin;day_of_year_cos
+60min,SHT_TIME,temperature;relative_humidity;hour_sin;hour_cos;day_of_year_sin;day_of_year_cos

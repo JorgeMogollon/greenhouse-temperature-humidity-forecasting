@@ -1,0 +1,18 @@
+{
+  "notebook": "08_robust_residual_hybrid.ipynb",
+  "execution_mode": "full",
+  "correction_base_family": "SARIMA_DAILY_DIFFERENCE",
+  "fallback_policy": "BEST_ADVANCED_TRADITIONAL",
+  "oof_prediction_rows": 8824,
+  "validation_origins": 874,
+  "corrector_tuning_rows": 120,
+  "window_candidate_metric_rows": 2560,
+  "candidate_robustness_rows": 640,
+  "operational_tasks": 40,
+  "activated_corrections": 7,
+  "base_only_tasks": 33,
+  "robust_validation_prediction_rows": 6992,
+  "robust_test_prediction_rows": 33896,
+  "historical_selection_matches": 29,
+  "test_used_for_selection": false
+}

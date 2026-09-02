@@ -1,0 +1,7 @@
+family,average_rmse_rank,median_rmse_rank,family_label
+MACHINE_LEARNING,2.525,2.0,Machine learning
+HYBRID_ROBUST,2.5875,2.5,Robust hybrid
+ADVANCED_TRADITIONAL,2.7625,2.5,Advanced traditional
+STATISTICAL,3.25,3.5,Statistical
+DEEP_LEARNING,4.55,5.0,Deep learning
+BASELINE,5.325,6.0,Baseline

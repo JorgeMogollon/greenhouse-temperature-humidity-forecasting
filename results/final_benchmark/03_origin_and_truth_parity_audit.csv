@@ -1,0 +1,7 @@
+family,prediction_rows,tasks,key_match_to_canonical,truth_match_to_canonical,missing_or_extra_keys,maximum_truth_absolute_difference
+BASELINE,33896,40,True,True,0,3.552713678800501e-15
+STATISTICAL,33896,40,True,True,0,3.552713678800501e-15
+MACHINE_LEARNING,33896,40,True,True,0,3.552713678800501e-15
+DEEP_LEARNING,33896,40,True,True,0,7.142857143094261e-06
+ADVANCED_TRADITIONAL,33896,40,True,True,0,0.0
+HYBRID_ROBUST,33896,40,True,True,0,0.0

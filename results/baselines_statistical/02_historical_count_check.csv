@@ -1,0 +1,16 @@
+resolution,split,observed,expected,match
+4min,train,1053,1053,True
+4min,validation,1446,1446,True
+4min,test,2742,2742,True
+12min,train,104,104,True
+12min,validation,135,135,True
+12min,test,378,378,True
+20min,train,146,146,True
+20min,validation,239,239,True
+20min,test,556,556,True
+30min,train,104,104,True
+30min,validation,142,142,True
+30min,test,350,350,True
+60min,train,66,66,True
+60min,validation,58,58,True
+60min,test,211,211,True

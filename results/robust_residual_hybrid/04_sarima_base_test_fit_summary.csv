@@ -1,0 +1,11 @@
+resolution,target,fit_end_index,parameters,aic,bic,fit_seconds
+4min,relative_humidity,45719,"{""order"": [2, 0, 0], ""seasonal_difference"": 1, ""trend"": ""c""}",78728.49043307327,78763.37997682688,1.4440423999913037
+4min,temperature,45719,"{""order"": [2, 0, 0], ""seasonal_difference"": 1, ""trend"": ""c""}",-22945.079447882752,-22910.189904129147,1.890369200031273
+12min,relative_humidity,15239,"{""order"": [1, 0, 1], ""seasonal_difference"": 1, ""trend"": ""c""}",42698.904369737014,42729.39946433595,1.4983461999800056
+12min,temperature,15239,"{""order"": [2, 0, 0], ""seasonal_difference"": 1, ""trend"": ""c""}",12036.241785319024,12066.736879917959,0.7360454999143258
+20min,relative_humidity,9143,"{""order"": [1, 0, 1], ""seasonal_difference"": 1, ""trend"": ""c""}",31102.405472410825,31130.857264514696,0.7591393999755383
+20min,temperature,9143,"{""order"": [2, 0, 0], ""seasonal_difference"": 1, ""trend"": ""c""}",13113.89047915587,13142.34227125974,0.8521846999647096
+30min,relative_humidity,6095,"{""order"": [1, 0, 1], ""seasonal_difference"": 1, ""trend"": ""c""}",23352.615321020807,23379.445252692243,0.4427408999763429
+30min,temperature,6095,"{""order"": [2, 0, 0], ""seasonal_difference"": 1, ""trend"": ""c""}",11574.594777736756,11601.424709408195,0.24259199993684888
+60min,relative_humidity,3047,"{""order"": [1, 0, 1], ""seasonal_difference"": 1, ""trend"": ""c""}",14010.700351152798,14034.757694101996,0.23257170000579208
+60min,temperature,3047,"{""order"": [2, 0, 0], ""seasonal_difference"": 1, ""trend"": ""c""}",7888.004333076393,7912.061676025591,0.24774530006106943
