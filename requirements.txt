@@ -1,20 +1,36 @@
-# Direct dependencies for the reproducible forecasting workflow
-# Final analyses were executed with Python 3.13.9.
+# Reproducible environment for the greenhouse forecasting workflow
 #
-# Versions are pinned only when they were recorded in the repository runtime
-# metadata. Run notebooks 01-10 in numerical order after installation.
+# Historical manuscript environment:
+#   Python 3.13.9 (64-bit)
+#   Windows 11
+#
+# requirements.txt does not install Python itself. Create and activate a
+# Python 3.13.9 environment before installing these packages.
+#
+# Run notebooks 01-10 in numerical order. Do not upgrade individual packages
+# without rerunning the complete workflow and recording a new result version.
 
-ipykernel
-jupyterlab
-joblib
-matplotlib
+# Notebook execution
+ipykernel==6.30.1
+jupyterlab==4.4.6
+tqdm==4.67.1
+
+# Numerical and data processing
 numpy==2.3.5
 pandas==2.3.3
-pyarrow
-scikit-learn
 scipy==1.16.3
-seaborn
+pyarrow==21.0.0
+openpyxl==3.1.5
+joblib==1.5.2
+
+# Statistical and machine-learning models
+scikit-learn==1.7.2
 statsmodels==0.14.5
-tensorflow
-tqdm
-xgboost
+xgboost==3.2.0
+
+# Deep learning
+tensorflow==2.20.0
+
+# Figures
+matplotlib==3.10.6
+seaborn==0.13.2
