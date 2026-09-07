@@ -1,6 +1,0 @@
-original_column,sensor,processed_column
-Temp 1,BME280,temp_bme280
-Hum 1,BME280,rh_bme280
-Presion,BME280,pressure_bme280
-Temp 2,SHT31,temp_sht31
-Hum 2,SHT31,rh_sht31

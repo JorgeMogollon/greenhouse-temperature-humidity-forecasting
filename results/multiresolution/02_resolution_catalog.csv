@@ -1,6 +1,0 @@
-resolution,resolution_minutes,n_bins,start,end,target_valid_bins,target_valid_pct,file
-4min,4,54168,2026-03-22,2026-08-19 11:08:00,43603,80.49586471717619,data\processed\resolutions\greenhouse_4min.csv
-12min,12,18056,2026-03-22,2026-08-19 11:00:00,9839,54.49158174568011,data\processed\resolutions\greenhouse_12min.csv
-20min,20,10834,2026-03-22,2026-08-19 11:00:00,8007,73.90622115562118,data\processed\resolutions\greenhouse_20min.csv
-30min,30,7223,2026-03-22,2026-08-19 11:00:00,5050,69.915547556417,data\processed\resolutions\greenhouse_30min.csv
-60min,60,3612,2026-03-22,2026-08-19 11:00:00,2402,66.50055370985604,data\processed\resolutions\greenhouse_60min.csv

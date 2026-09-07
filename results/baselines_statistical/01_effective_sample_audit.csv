@@ -1,6 +1,0 @@
-resolution,resolution_minutes,rows,enough_context,history_complete,interpolation_ok,targets_valid,targets_same_split,train_samples,validation_samples,test_samples
-4min,4,54168,53689,30604,9994,5304,5241,1053,1446,2742
-12min,12,18056,17897,10200,3336,627,617,104,135,378
-20min,20,10834,10739,6138,1866,948,941,146,239,556
-30min,30,7223,7160,4102,1290,603,596,104,142,350
-60min,60,3612,3581,2285,713,337,335,66,58,211

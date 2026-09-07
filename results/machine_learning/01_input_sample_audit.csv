@@ -1,6 +1,0 @@
-resolution,rows,total_origins,train,validation,test,matches_historical_audit
-4min,54168,5241,1053,1446,2742,True
-12min,18056,617,104,135,378,True
-20min,10834,941,146,239,556,True
-30min,7223,596,104,142,350,True
-60min,3612,335,66,58,211,True

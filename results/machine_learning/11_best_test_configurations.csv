@@ -1,6 +1,0 @@
-resolution,resolution_minutes,model,feature_set,mean_test_rmse,mean_test_r2,candidate_id,model_path
-12min,12,RANDOM_FOREST,SHT_TIME,2.4698942875509218,0.8980290284261779,2,models\machine_learning\12min\RANDOM_FOREST\SHT_TIME\final_model.joblib
-20min,20,EXTRA_TREES,SHT_TIME,2.290429468498277,0.9171823073997118,2,models\machine_learning\20min\EXTRA_TREES\SHT_TIME\final_model.joblib
-30min,30,EXTRA_TREES,SHT_TIME,2.3494361269051556,0.9060065752166193,2,models\machine_learning\30min\EXTRA_TREES\SHT_TIME\final_model.joblib
-4min,4,EXTRA_TREES,SHT_TIME,2.3206879109607144,0.9188115918381595,2,models\machine_learning\4min\EXTRA_TREES\SHT_TIME\final_model.joblib
-60min,60,XGBOOST,SHT_TIME,2.719810842893519,0.8695602964068648,2,models\machine_learning\60min\XGBOOST\SHT_TIME\final_model.joblib

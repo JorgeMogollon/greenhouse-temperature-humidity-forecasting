@@ -1,1 +1,0 @@
-timestamp,temp_sht31,rh_sht31,temp_bme280,rh_bme280,pressure_bme280,rh_bme280_raw,rh_bme280_clean,rh_bme280_saturated,rh_bme280_valid_for_model,delta_temp,delta_rh

@@ -1,2 +1,0 @@
-n_complete_tasks,n_families,families,metric,friedman_statistic,p_value,significant
-40,6,"[""ADVANCED_TRADITIONAL"", ""BASELINE"", ""DEEP_LEARNING"", ""HYBRID_ROBUST"", ""MACHINE_LEARNING"", ""STATISTICAL""]",NRMSE normalized by test-task target SD,79.85735186539871,8.988726474789061e-16,True

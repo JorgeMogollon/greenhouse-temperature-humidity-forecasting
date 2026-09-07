@@ -1,4 +1,0 @@
-input,rows,columns
-results\final_benchmark\05_final_family_task_metrics.csv,240,13
-results\final_benchmark\predictions\01_family_selected_test_predictions.parquet,203376,8
-results\final_benchmark\11_output_validation.csv,7,3

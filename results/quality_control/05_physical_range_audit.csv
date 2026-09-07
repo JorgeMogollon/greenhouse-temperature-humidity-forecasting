@@ -1,6 +1,0 @@
-variable,lower_limit,upper_limit,n_outside_range,outside_range_pct
-temp_sht31_raw,-40,125,0,0.0
-rh_sht31_raw,0,100,0,0.0
-temp_bme280_raw,-40,85,0,0.0
-rh_bme280_raw,0,100,0,0.0
-pressure_bme280_raw,300,1100,0,0.0

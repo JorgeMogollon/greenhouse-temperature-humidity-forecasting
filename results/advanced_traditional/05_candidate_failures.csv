@@ -1,3 +1,0 @@
-resolution,target,family,candidate_id,parameters,phase,error_type,error_message
-20min,temperature,SARIMA_EXACT,2,"{""order"": [1, 0, 1], ""seasonal_order_base"": [0, 1, 1], ""trend"": ""c""}",validation,MemoryError,"Unable to allocate 1.20 GiB for an array with shape (146, 146, 7561) and data type float64"
-20min,relative_humidity,SARIMA_EXACT,2,"{""order"": [1, 0, 1], ""seasonal_order_base"": [0, 1, 1], ""trend"": ""c""}",validation,MemoryError,"Unable to allocate 1.20 GiB for an array with shape (146, 146, 7560) and data type float64"

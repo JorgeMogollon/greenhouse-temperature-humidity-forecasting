@@ -1,6 +1,0 @@
-family_a,family_b,tasks,exact_ties,hybrid_better_tasks,comparison_better_tasks,significant_tasks_global_holm
-HYBRID_ROBUST,ADVANCED_TRADITIONAL,40,33,6,1,1
-HYBRID_ROBUST,BASELINE,40,0,39,1,19
-HYBRID_ROBUST,DEEP_LEARNING,40,0,33,7,8
-HYBRID_ROBUST,MACHINE_LEARNING,40,0,17,23,0
-HYBRID_ROBUST,STATISTICAL,40,0,25,15,2

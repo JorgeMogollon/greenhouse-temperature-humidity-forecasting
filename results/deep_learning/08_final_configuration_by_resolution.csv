@@ -1,6 +1,0 @@
-resolution,resolution_minutes,architecture,candidate_id,parameters,mean_normalized_rmse,sd_normalized_rmse,mean_rmse,mean_r2,median_best_epoch,feature_set,independent_seeds,test_used_for_selection
-12min,12,MLP,1,"{""dropout"": 0.2, ""hidden_units"": [128, 64], ""learning_rate"": 0.001}",0.5748431602406638,0.001939793004027025,4.702543599306682,0.6411802967389425,29.0,SHT_TIME,2026;2027;2028,False
-20min,20,LSTM,1,"{""dense_units"": 32, ""dropout"": 0.2, ""learning_rate"": 0.001, ""recurrent_units"": 64}",0.47333278240815496,0.012287399077118228,3.8752700653394374,0.7452814628680547,61.0,SHT_TIME,2026;2027;2028,False
-30min,30,LSTM,2,"{""dense_units"": 48, ""dropout"": 0.3, ""learning_rate"": 0.0005, ""recurrent_units"": 96}",0.4060364739634353,0.017886460733206908,3.6332361878817614,0.7785186742742857,80.0,SHT_TIME,2026;2027;2028,False
-4min,4,GRU,1,"{""dense_units"": 32, ""dropout"": 0.2, ""learning_rate"": 0.001, ""recurrent_units"": 64}",0.32914048840284815,0.013003429693695723,2.8223514289681746,0.8636155898372332,34.0,SHT_TIME,2026;2027;2028,False
-60min,60,MLP,2,"{""dropout"": 0.3, ""hidden_units"": [256, 128], ""learning_rate"": 0.0005}",0.5234351572757842,0.027619118546594393,4.273955094847573,0.6764994636178017,66.0,SHT_TIME,2026;2027;2028,False

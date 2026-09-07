@@ -1,7 +1,0 @@
-family,source_notebook,selection_scope,selection_basis,test_used_for_selection
-BASELINE,04,task,validation RMSE,False
-STATISTICAL,04,task,validation RMSE,False
-MACHINE_LEARNING,05,resolution,validation NRMSE/RMSE and R2,False
-DEEP_LEARNING,06 + notebook 09 operational selector,task,validation ensemble RMSE + seed stability,False
-ADVANCED_TRADITIONAL,07,resolution × target,mean validation NRMSE across horizons,False
-HYBRID_ROBUST,08,task,validation-only multi-window robustness,False

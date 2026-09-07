@@ -1,6 +1,0 @@
-resolution,dataset_rows,seasonal_steps_24h,train_origins,validation_origins,test_origins
-4min,54168,360,1053,1446,2742
-12min,18056,120,104,135,378
-20min,10834,72,146,239,556
-30min,7223,48,104,142,350
-60min,3612,24,66,58,211
