@@ -6,7 +6,7 @@ type: software
 
 title: "Greenhouse Temperature and Humidity Forecasting"
 
-abstract: "Data, reproducible notebooks, quality-control outputs, figures, and metadata supporting multi-resolution and multi-horizon forecasting of greenhouse air temperature and relative humidity. The repository documents sensor evaluation, data validation, four-minute temporal regularization, and subsequent forecasting analyses."
+abstract: "Reproducible Jupyter notebooks, raw greenhouse sensor data, article figures, and documentation supporting multi-resolution and multi-horizon forecasting of greenhouse air temperature and relative humidity. The workflow covers sensor evaluation, data quality control, four-minute temporal regularization, multi-resolution dataset construction, six-family predictive benchmarking, robust residual hybrid modeling, and paired statistical analysis."
 
 authors:
   - family-names: "Mogollon Rojas"
@@ -40,4 +40,5 @@ keywords:
   - "multi-horizon forecasting"
   - "sensor validation"
   - "quality control"
+  - "robust hybrid forecasting"
   - "reproducible research"
