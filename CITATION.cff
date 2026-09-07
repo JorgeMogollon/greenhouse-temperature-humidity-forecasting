@@ -6,6 +6,10 @@ type: software
 
 title: "Greenhouse Temperature and Humidity Forecasting"
 
+version: "1.0.0"
+date-released: "2026-09-07"
+doi: "10.5281/zenodo.22648216"
+
 abstract: "Reproducible Jupyter notebooks, raw greenhouse sensor data, article figures, and documentation supporting multi-resolution and multi-horizon forecasting of greenhouse air temperature and relative humidity. The workflow covers sensor evaluation, data quality control, four-minute temporal regularization, multi-resolution dataset construction, six-family predictive benchmarking, robust residual hybrid modeling, and paired statistical analysis."
 
 authors:
@@ -30,6 +34,11 @@ authors:
     orcid: "https://orcid.org/0000-0001-5609-5940"
 
 repository-code: "https://github.com/JorgeMogollon/greenhouse-temperature-humidity-forecasting"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22648215"
+    description: "Zenodo concept DOI for all archived versions"
 
 keywords:
   - "greenhouse"
