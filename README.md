@@ -1,8 +1,10 @@
 # Greenhouse Temperature and Relative Humidity Forecasting
 
+[![DOI](https://zenodo.org/badge/1353825395.svg)](https://doi.org/10.5281/zenodo.22648215)
+
 Data, reproducible Jupyter notebooks, article figures, and documentation supporting multi-resolution and multi-horizon forecasting of greenhouse air temperature and relative humidity.
 
-> **Repository status:** The complete computational workflow has been executed sequentially from the raw dataset. The repository is being prepared for its first versioned release and Zenodo archive.
+> **Repository status:** Version `v1.0.0` has been released and archived in Zenodo. The complete computational workflow has been executed sequentially from the raw dataset.
 
 ## Overview
 
@@ -156,7 +158,10 @@ The raw dataset, figures, and related research outputs are distributed under the
 
 Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
-After publication of the first versioned release, the Zenodo DOI will be added to this section and to the citation metadata.
+- **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.22648215
+- **Version `v1.0.0` DOI:** https://doi.org/10.5281/zenodo.22648216
+
+Use the version-specific DOI when citing the exact archived release used in an analysis. The concept DOI resolves to the latest archived version of the repository.
 
 ## Repository
 
